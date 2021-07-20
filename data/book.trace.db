@@ -1,0 +1,15 @@
+2021-07-20 09:17:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CATEGORY_ID[*]"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CATEGORY_ID [42001-199]
+2021-07-20 09:18:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CATEGORY_ID[*] CATEGORY_ID"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CATEGORY_ID CATEGORY_ID [42001-199]
+2021-07-20 09:18:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CATEGORY_ID[*] CATEGORY_ID BOOK_IDS CATEGORY"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CATEGORY_ID CATEGORY_ID BOOK_IDS CATEGORY [42001-199]
+2021-07-20 09:18:22 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CATEGORY_ID[*] CATEGORY_ID BOOK_IDS CATEGORY BOOK"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CATEGORY_ID CATEGORY_ID BOOK_IDS CATEGORY BOOK [42001-199]
+2021-07-20 09:22:46 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY CATEGORY_BOOK_IDS CATEGORY_BOOK_IDS[*]"; SQL statement:
+SELECT * FROM CATEGORY CATEGORY_BOOK_IDS CATEGORY_BOOK_IDS [42000-199]
