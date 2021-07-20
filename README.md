@@ -24,7 +24,7 @@ cd Spring-Boot-Book-Admin
 ```
 
 ```sh
-git checkout develop
+git checkout development
 ```
 
 ```sh
