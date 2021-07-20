@@ -49,6 +49,17 @@ http://localhost:8080/swagger-ui.html#/
 
 ![image](https://user-images.githubusercontent.com/44150408/126255637-b9456794-097a-42ea-b963-2e6c3b72b96a.png)
 
+
+For Postman
+
+##### Go to import then click link
+```
+https://www.getpostman.com/collections/460c05694861006d0c02
+```
+
+![image](https://user-images.githubusercontent.com/44150408/126267630-91bb26e6-e20f-493c-9f14-bd919f8e137d.png)
+
+
 For Database
 
 ```
